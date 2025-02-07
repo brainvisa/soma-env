@@ -1,8 +1,7 @@
 {
-    "latest_release": "6.0.7",
     "aims-free": {
         "branch": "soma-env-6.0",
-        "changeset": "dcec9a6d1ddc047b1647f1ffbc142fe9fd0fb4f6",
+        "changeset": "167bd11a7eb366efad22dbfd05c75ad3a93d9dd5",
         "url": "https://github.com/brainvisa/aims-free.git"
     },
     "aims-gpl": {
@@ -12,12 +11,12 @@
     },
     "anatomist-free": {
         "branch": "soma-env-6.0",
-        "changeset": "acbadc828bc1ab6b2b539cde5c8ecb596e025c4a",
+        "changeset": "c408398f2ed1629f49908708783ddb07a99045d7",
         "url": "https://github.com/brainvisa/anatomist-free.git"
     },
     "anatomist-gpl": {
         "branch": "soma-env-6.0",
-        "changeset": "dd834d7949f705e5cd3c2f177d6ce46e4b817354",
+        "changeset": "7713989709636ae3701840ec8660c9e9b6594de8",
         "url": "https://github.com/brainvisa/anatomist-gpl.git"
     },
     "axon": {
@@ -51,7 +50,7 @@
     },
     "brainvisa-spm": {
         "branch": "soma-env-6.0",
-        "changeset": "c1906d4caf76c130cba1afc903637e6cc7dcc600",
+        "changeset": "b9d4f9c00dd2cbed669c6c00cd557e2a11b92ebe",
         "url": "https://github.com/brainvisa/brainvisa-spm.git"
     },
     "brainvisa_freesurfer": {
@@ -94,6 +93,7 @@
         "changeset": "a2d6a7d2b0b1d07a3a3333d7826a6f607024d5aa",
         "url": "https://github.com/neurospin/highres-cortex.git"
     },
+    "latest_release": "6.0.8",
     "morpho-deepsulci": {
         "branch": "soma-env-6.0",
         "changeset": "1906692353e08865e010a80b170c69cb618f0953",
@@ -131,7 +131,7 @@
     },
     "populse-db": {
         "branch": "soma-env-6.0",
-        "changeset": "9426cda37b2642dd5f784e9ba60b5350efcb211b",
+        "changeset": "ae51ca409c28e5d0cadfe668d03ba29313fd70ee",
         "url": "https://github.com/populse/populse_db.git"
     },
     "primatologist-gpl": {
@@ -141,7 +141,7 @@
     },
     "soma-base": {
         "branch": "soma-env-6.0",
-        "changeset": "5b8149712c3d025d744ef60e65dc86d244bc4ad9",
+        "changeset": "75862bc4d64f916b8084e2f7c92242481a811fd4",
         "url": "https://github.com/populse/soma-base.git"
     },
     "soma-io": {
