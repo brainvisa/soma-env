@@ -20,6 +20,13 @@ cd soma-env
 pixi run soma-env update
 ```
 
+Then you can activate your environement with Pixi and start to build your projects:
+
+```
+pixi shell
+bv_maker
+```
+
 # Create neuro-forge packages
 
 Package creation is always done from a soma-env environement activated through Pixi.
