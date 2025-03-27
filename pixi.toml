@@ -85,6 +85,7 @@ pre-commit = ">=4.1.0,<5"
 scikit-image = "*"
 gdb = "*"
 sphinxcontrib-mermaid = "*"
+myst-parser = "*"
 
 [dependencies.libjpeg-turbo]
 channel = "conda-forge"
