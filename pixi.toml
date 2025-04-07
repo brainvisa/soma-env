@@ -83,6 +83,9 @@ libopengl = "*"
 pydicom = "*"
 pre-commit = ">=4.1.0,<5"
 scikit-image = "*"
+sphinxcontrib-mermaid = "*"
+myst-parser = "*"
+sphinx-rtd-theme = "*"
 
 [dependencies.libjpeg-turbo]
 channel = "conda-forge"

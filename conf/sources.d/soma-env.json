@@ -1,34 +1,42 @@
 {
     "aims-free": {
         "branch": "master",
+        "changeset": "56743a7b877491e3ed22bd171e988388f1e5b759",
         "url": "https://github.com/brainvisa/aims-free.git"
     },
     "aims-gpl": {
         "branch": "master",
+        "changeset": "87e39e95e48102194a61cae04915cae6d94202ad",
         "url": "https://github.com/brainvisa/aims-gpl.git"
     },
     "anatomist-free": {
         "branch": "master",
+        "changeset": "c16d92480d8c5fc0b6bd3bb6c7500a12c2241d1e",
         "url": "https://github.com/brainvisa/anatomist-free.git"
     },
     "anatomist-gpl": {
         "branch": "capsul3",
+        "changeset": "67e6c6994e5fdbb4db1b55ad78639aa9e62ba7dd",
         "url": "https://github.com/brainvisa/anatomist-gpl.git"
     },
     "axon": {
         "branch": "capsul3",
+        "changeset": "31662dc61eeb6fd77d6dd318ff1e12b134cdb826",
         "url": "https://github.com/brainvisa/axon.git"
     },
     "bioprocessing": {
         "branch": "master",
+        "changeset": "0f0d231dcb281bf5ce272cb151a9ea4bc559d7b7",
         "url": "https://bioproj.extra.cea.fr/git/bioprocessing"
     },
     "brainrat-gpl": {
         "branch": "master",
+        "changeset": "d655f5be18ed513fc118d1a8277fc73a7991193a",
         "url": "https://bioproj.extra.cea.fr/git/brainrat-gpl"
     },
     "brainrat-private": {
         "branch": "master",
+        "changeset": "e9670b422f553f81a661c39b11cb8e94914a5c41",
         "url": "https://bioproj.extra.cea.fr/git/brainrat-private"
     },
     "brainvisa-cmake": {
@@ -37,94 +45,118 @@
     },
     "brainvisa-share": {
         "branch": "master",
+        "changeset": "38f65ef3a97af52084e3c63d23e7e6f86416fa73",
         "url": "https://github.com/brainvisa/brainvisa-share.git"
     },
     "brainvisa-spm": {
         "branch": "master",
+        "changeset": "fc46c08f931601c7a2e1163ae5393efbcf74e275",
         "url": "https://github.com/brainvisa/brainvisa-spm.git"
     },
     "brainvisa_freesurfer": {
         "branch": "master",
+        "changeset": "a40875d56dedad4c5e882b9e4cd76716df36d2dd",
         "url": "https://github.com/brainvisa/brainvisa_freesurfer.git"
     },
     "capsul": {
         "branch": "3.0",
+        "changeset": "0703932d1c9884872df070ca1e19125a49648987",
         "url": "https://github.com/populse/capsul.git"
     },
     "constellation-gpl": {
         "branch": "master",
+        "changeset": "ea5df9f79bb0ef7deac452b3663756d1b33311c5",
         "url": "https://github.com/brainvisa/constellation-gpl.git"
     },
     "constellation-nonfree": {
         "branch": "master",
+        "changeset": "ccb3558aa220216e341a9b05d6149415d3720b4c",
         "url": "https://github.com/brainvisa/constellation-nonfree.git"
     },
     "cortical_surface-gpl": {
         "branch": "master",
+        "changeset": "04f5e7e02a4daff4a638e6bf35bf18f5e08683e5",
         "url": "https://github.com/brainvisa/cortical_surface-gpl.git"
     },
     "cortical_surface-nonfree": {
         "branch": "master",
+        "changeset": "c20dd904ef0582e6e82dc9877f540fecb56c5f47",
         "url": "https://github.com/brainvisa/cortical_surface-nonfree.git"
     },
     "disco": {
         "branch": "master",
+        "changeset": "186f84c8a16551c03370eaacbf1060c0b9905f3a",
         "url": "https://bioproj.extra.cea.fr/git/brainvisa-disco"
     },
     "highres-cortex": {
         "branch": "master",
+        "changeset": "a2d6a7d2b0b1d07a3a3333d7826a6f607024d5aa",
         "url": "https://github.com/neurospin/highres-cortex.git"
     },
+    "latest_release": "0.1.0",
     "morpho-deepsulci": {
         "branch": "capsul3",
+        "changeset": "d6dc6ddbf25984c2a443f1e759d334394a4d107d",
         "url": "https://github.com/brainvisa/morpho-deepsulci.git"
     },
     "morphologist-baby": {
         "branch": "master",
+        "changeset": "25f60fe9ef4a337d9b3f5ca5863582b8e331e1d2",
         "url": "https://bioproj.extra.cea.fr/git/brainvisa-t1mri/morphologist-baby.git"
     },
     "morphologist-gpl": {
         "branch": "capsul3",
+        "changeset": "fc793896f171d90cfbf68b6d20972b11b140a171",
         "url": "https://github.com/brainvisa/morphologist-gpl.git"
     },
     "morphologist-nonfree": {
         "branch": "master",
+        "changeset": "c8cf86b753bf028aa6b1da41b813d1d0ad7d784d",
         "url": "https://github.com/brainvisa/morphologist-nonfree.git"
     },
     "morphologist-ui": {
         "branch": "capsul3",
+        "changeset": "b101f44430204bb860fb97e670bc3b609d4d69d3",
         "url": "https://github.com/brainvisa/morphologist.git"
     },
     "nuclear_imaging-gpl": {
         "branch": "master",
+        "changeset": "97f9df45c6048078dd9598deca8ed8f0c2e9aaee",
         "url": "https://github.com/cati-neuroimaging/nuclear_imaging-gpl.git"
     },
     "nuclear_imaging-nonfree": {
         "branch": "master",
+        "changeset": "70608fe7e8bdcdef443ecb9f705495871c58b4e7",
         "url": "https://github.com/cati-neuroimaging/nuclear_imaging-nonfree.git"
     },
     "populse-db": {
         "branch": "3.0",
+        "changeset": "39f8e46f577f7dd041f96404199668959c598b1b",
         "url": "https://github.com/populse/populse_db.git"
     },
     "primatologist-gpl": {
         "branch": "master",
+        "changeset": "f30acde6a049531e7673b4c8ed0c9278cbad9923",
         "url": "https://bioproj.extra.cea.fr/git/primatologist-gpl"
     },
     "soma-base": {
         "branch": "6.0",
+        "changeset": "d13795f7bce9ac11048b7d1cd7ad437d258faca5",
         "url": "https://github.com/populse/soma-base.git"
     },
     "soma-io": {
         "branch": "master",
+        "changeset": "472aead7b45baf9e180d971be1058d4edffb29a6",
         "url": "https://github.com/brainvisa/soma-io.git"
     },
     "soma-workflow": {
         "branch": "master",
+        "changeset": "59c7335293373533b509e6329449c5e1013125cb",
         "url": "https://github.com/populse/soma-workflow.git"
     },
     "sulci-nonfree": {
         "branch": "master",
+        "changeset": "a56bbae4c2810c02128a25821f0a315dee721568",
         "url": "https://github.com/brainvisa/sulci-nonfree.git"
     }
 }
