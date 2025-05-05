@@ -38,6 +38,7 @@ numpy = "<2"
 libminc = "*"
 openjpeg = "*"
 pywebp = "*"
+objgraph = "*"
 graphviz = "*"
 doxygen = "*"
 pkgconfig = "*"
@@ -77,14 +78,22 @@ pyqtwebengine = "*"
 ipykernel = "*"
 pycryptodome = "*"
 pandas = "*"
-pydicom = "*"
-objgraph = "*"
 libgl = "*"
 libopengl = "*"
+pydicom = "*"
+pre-commit = "*"
+scikit-image = "*"
+gdb = "*"
+sphinxcontrib-mermaid = "*"
+myst-parser = "*"
+sphinx-rtd-theme = "*"
 
 [dependencies.libjpeg-turbo]
 channel = "conda-forge"
 version = ">=3.0.0"
+
+[pypi-dependencies]
+dracopy = ">=1.4.2"
 
 [activation]
 scripts = ["activate.sh"]

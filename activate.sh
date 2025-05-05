@@ -17,5 +17,3 @@ fi
 if [ ! -e "$SOMA_ROOT/conf/build_info.json" ] ; then
     echo '{}' > "$SOMA_ROOT/conf/build_info.json"
 fi
-
-
