@@ -93,7 +93,7 @@
         "changeset": "0849e26c60dd3a8c658d926b00702cfbba2e417c",
         "url": "https://github.com/neurospin/highres-cortex.git"
     },
-    "latest_release": "6.0.10",
+    "latest_release": "6.0.11",
     "morpho-deepsulci": {
         "branch": "soma-env-6.0",
         "changeset": "e72510dc32c10f8cc65822826575b1afd6730a08",
@@ -131,7 +131,7 @@
     },
     "populse-db": {
         "branch": "soma-env-6.0",
-        "changeset": "628f60777bc0820dc71cd02be6955523cbce1cd8",
+        "changeset": "00ad58c5fc4c02d91e783a25c67928e797308d09",
         "url": "https://github.com/populse/populse_db.git"
     },
     "primatologist-gpl": {
