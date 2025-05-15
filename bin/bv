@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Start a command inside a pixi environment
 # Works in the same way as the casa-distro "bv"
