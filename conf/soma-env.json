@@ -1,23 +1,23 @@
 {
     "name": "soma-env",
     "packages": {
-        "anatomist": "5.2.3",
+        "anatomist": "5.2.4",
         "bioprocessing": "5.2.2",
         "brainrat": "5.2.2",
-        "capsul": "2.6.2",
+        "capsul": "2.6.3",
         "constellation": "5.2.2",
         "cortical-surface": "5.2.2",
         "disco": "5.2.1",
         "highres-cortex": "5.2.1",
-        "morphologist": "5.2.3",
+        "morphologist": "5.2.4",
         "morphologist-baby": "5.2.1",
         "nuclear-imaging": "5.2.2",
-        "populse-db": "3.0.2",
+        "populse-db": "3.0.7",
         "primatologist": "5.2.1",
-        "soma": "5.2.3",
+        "soma": "5.2.4",
         "soma-freesurfer": "5.2.1",
         "soma-python": "5.3.2",
-        "soma-spm": "5.2.1"
+        "soma-spm": "5.2.2"
     },
     "publication": "neuro-forge",
     "version": "6.0"

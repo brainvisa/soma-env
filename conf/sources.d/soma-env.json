@@ -1,7 +1,7 @@
 {
     "aims-free": {
         "branch": "soma-env-6.0",
-        "changeset": "b97849be861e4c6e4cd34a9c4aa9a9a7db54054f",
+        "changeset": "ad559819b4ce1376257f32c3bfc5321d9446c1c6",
         "url": "https://github.com/brainvisa/aims-free.git"
     },
     "aims-gpl": {
@@ -11,17 +11,17 @@
     },
     "anatomist-free": {
         "branch": "soma-env-6.0",
-        "changeset": "ae9e62dbdc40963b862680740a31de22db6d9abe",
+        "changeset": "ab4ae17bb8bc160f1186556cbb5b7c38d24b9672",
         "url": "https://github.com/brainvisa/anatomist-free.git"
     },
     "anatomist-gpl": {
         "branch": "soma-env-6.0",
-        "changeset": "1d3513ca86c5e50d355ed0625698103915e118b2",
+        "changeset": "fa70746abe8ef46263e9fc4a6ba024e9f5f40fc7",
         "url": "https://github.com/brainvisa/anatomist-gpl.git"
     },
     "axon": {
         "branch": "soma-env-6.0",
-        "changeset": "228593d22ad339a2b5a750a76c685fd0c0d1771c",
+        "changeset": "33f8d4fa4878db786d2dabd42c117e42f8d2fac1",
         "url": "https://github.com/brainvisa/axon.git"
     },
     "bioprocessing": {
@@ -50,7 +50,7 @@
     },
     "brainvisa-spm": {
         "branch": "soma-env-6.0",
-        "changeset": "7bacce917f596b9e22be35ccf7c50bcf5844ef0a",
+        "changeset": "05e6b7c7844e260635a0be2d1ed5fbe72a7dedf5",
         "url": "https://github.com/brainvisa/brainvisa-spm.git"
     },
     "brainvisa_freesurfer": {
@@ -60,7 +60,7 @@
     },
     "capsul": {
         "branch": "soma-env-6.0",
-        "changeset": "efc4be4d42ea7d8544cdc4c6e58ebfade5337513",
+        "changeset": "9ae8f1796d407144a78363ef124b7dff77007c11",
         "url": "https://github.com/populse/capsul.git"
     },
     "constellation-gpl": {
@@ -93,7 +93,7 @@
         "changeset": "0849e26c60dd3a8c658d926b00702cfbba2e417c",
         "url": "https://github.com/neurospin/highres-cortex.git"
     },
-    "latest_release": "6.0.11",
+    "latest_release": "6.0.12",
     "morpho-deepsulci": {
         "branch": "soma-env-6.0",
         "changeset": "e72510dc32c10f8cc65822826575b1afd6730a08",
@@ -106,12 +106,12 @@
     },
     "morphologist-gpl": {
         "branch": "soma-env-6.0",
-        "changeset": "54ad2d7994d51e796be7000bcecf492ab5df2013",
+        "changeset": "e2e8d2596356589296961272ec1147df6e1aeba8",
         "url": "https://github.com/brainvisa/morphologist-gpl.git"
     },
     "morphologist-nonfree": {
         "branch": "soma-env-6.0",
-        "changeset": "bd5007cd9231f0dba370898af0246b6eae2299b3",
+        "changeset": "05f36e08ecdfb3340ccf5d34aa507789b863fddf",
         "url": "https://github.com/brainvisa/morphologist-nonfree.git"
     },
     "morphologist-ui": {
@@ -131,7 +131,7 @@
     },
     "populse-db": {
         "branch": "soma-env-6.0",
-        "changeset": "00ad58c5fc4c02d91e783a25c67928e797308d09",
+        "changeset": "fbc9988da77f8f2e22c89bbe1c9c948110163eb7",
         "url": "https://github.com/populse/populse_db.git"
     },
     "primatologist-gpl": {
@@ -146,7 +146,7 @@
     },
     "soma-io": {
         "branch": "soma-env-6.0",
-        "changeset": "01de2b6fed3b4845c293634f54ca72bdc04b97ac",
+        "changeset": "86ce2dec0c44e5bfdb96bec8c5dcc593e3d37559",
         "url": "https://github.com/brainvisa/soma-io.git"
     },
     "soma-workflow": {
