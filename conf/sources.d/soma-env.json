@@ -93,7 +93,7 @@
         "changeset": "a2d6a7d2b0b1d07a3a3333d7826a6f607024d5aa",
         "url": "https://github.com/neurospin/highres-cortex.git"
     },
-    "latest_release": "0.0.19",
+    "latest_release": "0.0.20",
     "morpho-deepsulci": {
         "branch": "master",
         "changeset": "e72510dc32c10f8cc65822826575b1afd6730a08",
@@ -106,7 +106,7 @@
     },
     "morphologist-gpl": {
         "branch": "master",
-        "changeset": "e2e8d2596356589296961272ec1147df6e1aeba8",
+        "changeset": "8b9ab45499c4585098701c8b073d35708bfb1872",
         "url": "https://github.com/brainvisa/morphologist-gpl.git"
     },
     "morphologist-nonfree": {
@@ -141,7 +141,7 @@
     },
     "soma-base": {
         "branch": "master",
-        "changeset": "d82b6e494afa921bd37c7b3ff15b4564be8fb2f9",
+        "changeset": "81ced610a5fcca0fd27ad5ed51009c372ab853a0",
         "url": "https://github.com/populse/soma-base.git"
     },
     "soma-io": {
