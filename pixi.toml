@@ -57,7 +57,7 @@ pcl = "*"
 configobj = "*"
 pyqtwebkit = "*"
 scipy = "*"
-traits = "<7"
+traits = { version = "<7", build = "*" }
 spm12 = "*"
 reportlab = "*"
 libsvm = "*"
