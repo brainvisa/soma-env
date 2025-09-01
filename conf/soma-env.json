@@ -3,7 +3,7 @@
     "packages": {
         "anatomist": "5.2.7",
         "bioprocessing": "5.2.4",
-        "brainrat": "5.2.5",
+        "brainrat": "5.2.6",
         "capsul": "2.6.6",
         "constellation": "5.2.4",
         "cortical-surface": "5.2.4",
@@ -12,11 +12,11 @@
         "morphologist": "5.2.7",
         "morphologist-baby": "5.2.3",
         "nuclear-imaging": "5.2.5",
-        "populse-db": "3.0.10",
+        "populse-db": "3.0.11",
         "primatologist": "5.2.3",
-        "soma": "5.2.7",
+        "soma": "5.2.8",
         "soma-freesurfer": "5.2.3",
-        "soma-python": "5.3.5",
+        "soma-python": "5.3.6",
         "soma-spm": "5.2.5"
     },
     "publication": "neuro-forge",
