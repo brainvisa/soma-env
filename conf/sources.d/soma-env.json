@@ -31,7 +31,7 @@
     },
     "brainrat-gpl": {
         "branch": "master",
-        "changeset": "9a3882eb8756268fd5364233461f083c99209833",
+        "changeset": "3275e2758a53f1afe5dd7e21291d029ffed702ac",
         "url": "https://bioproj.extra.cea.fr/git/brainrat-gpl"
     },
     "brainrat-private": {
@@ -93,7 +93,7 @@
         "changeset": "a2d6a7d2b0b1d07a3a3333d7826a6f607024d5aa",
         "url": "https://github.com/neurospin/highres-cortex.git"
     },
-    "latest_release": "0.0.23",
+    "latest_release": "0.0.24",
     "morpho-deepsulci": {
         "branch": "master",
         "changeset": "e72510dc32c10f8cc65822826575b1afd6730a08",
@@ -131,7 +131,7 @@
     },
     "populse-db": {
         "branch": "master",
-        "changeset": "698334b8f0d48e60839dc09d6e3fa42584a891e5",
+        "changeset": "208ea1f36cea738edef20fbd548e1ab1da1ea825",
         "url": "https://github.com/populse/populse_db.git"
     },
     "primatologist-gpl": {
