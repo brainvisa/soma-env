@@ -88,6 +88,8 @@ gdb = "*"
 sphinxcontrib-mermaid = "*"
 myst-parser = "*"
 sphinx-rtd-theme = "*"
+sphinx-gallery = "*"
+nbsphinx = "*"
 
 [dependencies.libjpeg-turbo]
 channel = "conda-forge"
