@@ -86,10 +86,8 @@ scikit-image = "*"
 sphinxcontrib-mermaid = "*"
 myst-parser = "*"
 sphinx-rtd-theme = "*"
-ipython = ">=9.2.0,<10"
-django = "*"
-uvicorn = "*"
-font-ttf-noto = ">=20201206,<20201207"
+sphinx-gallery = "*"
+nbsphinx = "*"
 
 [dependencies.libjpeg-turbo]
 channel = "conda-forge"
