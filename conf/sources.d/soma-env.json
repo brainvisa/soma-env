@@ -130,7 +130,7 @@
         "url": "https://github.com/cati-neuroimaging/nuclear_imaging-nonfree.git"
     },
     "populse-db": {
-        "branch": "3.0",
+        "branch": "master",
         "changeset": "39f8e46f577f7dd041f96404199668959c598b1b",
         "url": "https://github.com/populse/populse_db.git"
     },
@@ -148,11 +148,6 @@
         "branch": "master",
         "changeset": "472aead7b45baf9e180d971be1058d4edffb29a6",
         "url": "https://github.com/brainvisa/soma-io.git"
-    },
-    "soma-workflow": {
-        "branch": "master",
-        "changeset": "59c7335293373533b509e6329449c5e1013125cb",
-        "url": "https://github.com/populse/soma-workflow.git"
     },
     "sulci-nonfree": {
         "branch": "master",
