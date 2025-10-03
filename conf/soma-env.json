@@ -2,6 +2,7 @@
     "name": "soma-env",
     "packages": {
         "anatomist": "0.0.25",
+        "axon": null,
         "bioprocessing": "0.0.25",
         "brainrat": "0.0.25",
         "capsul": "0.0.25",
@@ -17,7 +18,8 @@
         "soma": "0.0.25",
         "soma-freesurfer": "0.0.22",
         "soma-python": "0.0.25",
-        "soma-spm": "0.0.22"
+        "soma-spm": "0.0.22",
+        "soma-workflow": null
     },
     "publication": "neuro-forge",
     "version": "0.0"
