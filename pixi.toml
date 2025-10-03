@@ -6,7 +6,7 @@ version = "0.0"
 
 [dependencies]
 python = ">=3.10,>=3.9,==3.11"
-fire = "<0.7"
+typer = "*"
 conda-build = "*"
 pyyaml = "*"
 dateutils = "*"
