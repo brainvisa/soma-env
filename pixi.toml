@@ -90,6 +90,8 @@ myst-parser = "*"
 sphinx-rtd-theme = "*"
 sphinx-gallery = "*"
 nbsphinx = "*"
+nbconvert-pandoc = "*"
+
 
 [dependencies.libjpeg-turbo]
 channel = "conda-forge"
