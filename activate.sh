@@ -6,6 +6,7 @@ export BRAINVISA_BVMAKER_CFG="$SOMA_ROOT/conf/bv_maker.cfg"
 export LD_LIBRARY_PATH="$SOMA_ROOT/build/lib:$LD_LIBRARY_PATH"
 python_short=$(python -c 'import sys; print(".".join(str(i) for i in sys.version_info[0:2]))')
 export PYTHONPATH="$SOMA_ROOT/src/brainvisa-cmake/python:$SOMA_ROOT/build/lib/python${python_short}/site-packages:$PYTHONPATH"
+export LC_NUMERIC=C
 
 # Ensure brainvisa-cmake sources are downloaded
 if [ ! -e "$SOMA_ROOT/src/brainvisa-cmake" ] ; then
