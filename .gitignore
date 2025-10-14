@@ -6,3 +6,4 @@ tests
 conf/build_info.json
 */__pycache__
 *.egg-info
+bin
