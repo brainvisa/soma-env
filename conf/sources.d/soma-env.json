@@ -1,7 +1,7 @@
 {
     "aims-free": {
         "branch": "soma-env-6.0",
-        "changeset": "ead9368443a7f3874cf31647e1a253a1b033a088",
+        "changeset": "6f196d935f21336978ce512bed7d9cddfaa2b14c",
         "url": "https://github.com/brainvisa/aims-free.git"
     },
     "aims-gpl": {
@@ -11,7 +11,7 @@
     },
     "anatomist-free": {
         "branch": "soma-env-6.0",
-        "changeset": "01fec78b6535fa361dfe8b46b09409ba714d12a4",
+        "changeset": "1590d8e478181936039bc29f68e39e88cabc1a69",
         "url": "https://github.com/brainvisa/anatomist-free.git"
     },
     "anatomist-gpl": {
@@ -21,12 +21,12 @@
     },
     "axon": {
         "branch": "soma-env-6.0",
-        "changeset": "2f869fe479f32b1134eb9818ae9a098a81931baf",
+        "changeset": "c095f412a5bb45376b2e114225e5fb6232971077",
         "url": "https://github.com/brainvisa/axon.git"
     },
     "bioprocessing": {
         "branch": "soma-env-6.0",
-        "changeset": "dfb35308e6e6a0614eb5d1189d42481a6d600623",
+        "changeset": "538953f93416004f7cad99545e43caebb04bf145",
         "url": "https://bioproj.extra.cea.fr/git/bioprocessing"
     },
     "brainrat-gpl": {
@@ -36,7 +36,7 @@
     },
     "brainrat-private": {
         "branch": "soma-env-6.0",
-        "changeset": "92360060c95c4fa849de9abdc263dd66ab989808",
+        "changeset": "bdc7eccd10f65af02f9be812177c3ed6ce724b9c",
         "url": "https://bioproj.extra.cea.fr/git/brainrat-private"
     },
     "brainvisa-cmake": {
@@ -45,27 +45,27 @@
     },
     "brainvisa-share": {
         "branch": "soma-env-6.0",
-        "changeset": "869819a60ee1427084fe69aba1c04431722519f5",
+        "changeset": "bffc42596aa2dd907cb71d9946c1b04fc1a1e986",
         "url": "https://github.com/brainvisa/brainvisa-share.git"
     },
     "brainvisa-spm": {
         "branch": "soma-env-6.0",
-        "changeset": "9304aa416a923d982adeee6a42be94bcbcbdf90f",
+        "changeset": "aea93ed9f71587a06a7926ad5581b3721e29722a",
         "url": "https://github.com/brainvisa/brainvisa-spm.git"
     },
     "brainvisa_freesurfer": {
         "branch": "soma-env-6.0",
-        "changeset": "0027fbed1cae86a567d277ff2b6548aa2cf3a9e0",
+        "changeset": "ede7efd59a62ac09fd84cf52fe2d632b7cc1ac18",
         "url": "https://github.com/brainvisa/brainvisa_freesurfer.git"
     },
     "capsul": {
         "branch": "soma-env-6.0",
-        "changeset": "0440f8b668dfd35d0a7381441a83e117f6aef12e",
+        "changeset": "0059b140a5ac4c1470e96606cccefd2cdad9e500",
         "url": "https://github.com/populse/capsul.git"
     },
     "constellation-gpl": {
         "branch": "soma-env-6.0",
-        "changeset": "7d8cf222193e5a0b05052595d58618032919d02c",
+        "changeset": "d2925bb2b5d93682d2fd176719db7627191dc572",
         "url": "https://github.com/brainvisa/constellation-gpl.git"
     },
     "constellation-nonfree": {
@@ -75,7 +75,7 @@
     },
     "cortical_surface-gpl": {
         "branch": "soma-env-6.0",
-        "changeset": "40d79670b9e8962d4fa5956429fa87d883360b4d",
+        "changeset": "762312417c3fb2f22cdf93777884ebb645134e51",
         "url": "https://github.com/brainvisa/cortical_surface-gpl.git"
     },
     "cortical_surface-nonfree": {
@@ -85,15 +85,15 @@
     },
     "disco": {
         "branch": "soma-env-6.0",
-        "changeset": "c18a05ff10695a3b7c1275b6e3363019b5e64bac",
+        "changeset": "fe4df4735037da7cefc57407a63585951526bdcb",
         "url": "https://bioproj.extra.cea.fr/git/brainvisa-disco"
     },
     "highres-cortex": {
         "branch": "soma-env-6.0",
-        "changeset": "b7376e9f60193446f4be7737567e14e77b20d00c",
+        "changeset": "a6f7beffb6f5b6538a00e0f4a6a41604b250fbfc",
         "url": "https://github.com/neurospin/highres-cortex.git"
     },
-    "latest_release": "6.0.17",
+    "latest_release": "6.0.18",
     "morpho-deepsulci": {
         "branch": "soma-env-6.0",
         "changeset": "e72510dc32c10f8cc65822826575b1afd6730a08",
@@ -101,17 +101,17 @@
     },
     "morphologist-baby": {
         "branch": "soma-env-6.0",
-        "changeset": "be6ff8c7b0716f7aecbceb79fb1e302ceaa752bf",
+        "changeset": "f70333d066daaa0fb64686fa1c6e9daa6eaba82a",
         "url": "https://bioproj.extra.cea.fr/git/brainvisa-t1mri/morphologist-baby.git"
     },
     "morphologist-gpl": {
         "branch": "soma-env-6.0",
-        "changeset": "4333dbf901f33fd9c5517f910ac974ffbbf5fa9b",
+        "changeset": "774c411eded69f7eb4eac41953bd9bb8c438e864",
         "url": "https://github.com/brainvisa/morphologist-gpl.git"
     },
     "morphologist-nonfree": {
         "branch": "soma-env-6.0",
-        "changeset": "40bd4c3b8c83cc8637134a3b5923acb910429a04",
+        "changeset": "99c9085f39d8061f995d951eb4a422cfb7533588",
         "url": "https://github.com/brainvisa/morphologist-nonfree.git"
     },
     "morphologist-ui": {
@@ -126,32 +126,32 @@
     },
     "nuclear_imaging-nonfree": {
         "branch": "soma-env-6.0",
-        "changeset": "9309385900b4256e3c3d11a915259b0da8f0616c",
+        "changeset": "5e76acded94ebcf51d5847a96333383270a16648",
         "url": "https://github.com/cati-neuroimaging/nuclear_imaging-nonfree.git"
     },
     "populse-db": {
         "branch": "soma-env-6.0",
-        "changeset": "1e4e2fc08a1b204856331b1736e350079411bc4f",
+        "changeset": "2bf8f12bfed185a10fb5a3e5da3cc18fa7b4227e",
         "url": "https://github.com/populse/populse_db.git"
     },
     "primatologist-gpl": {
         "branch": "soma-env-6.0",
-        "changeset": "5dc707e75fa762f22313f4b3771b3a28f4cf9577",
+        "changeset": "0e90f45f1af6a6d19655fe71d8b9a6acdbb28fef",
         "url": "https://bioproj.extra.cea.fr/git/primatologist-gpl"
     },
     "soma-base": {
         "branch": "soma-env-6.0",
-        "changeset": "616224c6cfb9bf2e5393d375d960c8221b8434f3",
+        "changeset": "bc5d03d0e084b31a47b3f1e9d5d042461c644e6a",
         "url": "https://github.com/populse/soma-base.git"
     },
     "soma-io": {
         "branch": "soma-env-6.0",
-        "changeset": "49c0cacf8f5fd0452335e2d9255c0a3c1c029a42",
+        "changeset": "e341d274a21c14dfd94547f548b109f0e0fa1fcd",
         "url": "https://github.com/brainvisa/soma-io.git"
     },
     "soma-workflow": {
         "branch": "soma-env-6.0",
-        "changeset": "43d927c174a940e242d86b8424b8ed567e3074f1",
+        "changeset": "c34fce3b2d296d55ac3906a11f64f8991112296b",
         "url": "https://github.com/populse/soma-workflow.git"
     },
     "sulci-nonfree": {
