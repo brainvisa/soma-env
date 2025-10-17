@@ -92,7 +92,6 @@ sphinx-gallery = "*"
 nbsphinx = "*"
 nbconvert-pandoc = "*"
 
-
 [dependencies.libjpeg-turbo]
 channel = "conda-forge"
 version = ">=3.0.0"
