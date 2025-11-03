@@ -11,12 +11,12 @@
     },
     "anatomist-free": {
         "branch": "master",
-        "changeset": "45f3aa79477816aa5f9d12329e3db7c3419bf35d",
+        "changeset": "2200a3fb3dd21ec0573323607a6325a00e9c7f60",
         "url": "https://github.com/brainvisa/anatomist-free.git"
     },
     "anatomist-gpl": {
         "branch": "master",
-        "changeset": "d3663a1e4c74385aa067e445bebc536826d5bfa4",
+        "changeset": "928876d2fae1e446367baecd23d8025239206a1f",
         "url": "https://github.com/brainvisa/anatomist-gpl.git"
     },
     "axon": {
@@ -60,7 +60,7 @@
     },
     "capsul": {
         "branch": "master",
-        "changeset": "6b8a8353ede6e793667c33becda5b5baa8816ac7",
+        "changeset": "f168f24e769b2cb553aa74baaf0543fdd04e9532",
         "url": "https://github.com/populse/capsul.git"
     },
     "constellation-gpl": {
@@ -93,7 +93,7 @@
         "changeset": "4bb78221093b175af3e71294b3e8b04201cf3da8",
         "url": "https://github.com/neurospin/highres-cortex.git"
     },
-    "latest_release": "0.0.27",
+    "latest_release": "0.0.28",
     "morpho-deepsulci": {
         "branch": "master",
         "changeset": "e72510dc32c10f8cc65822826575b1afd6730a08",
@@ -106,7 +106,7 @@
     },
     "morphologist-gpl": {
         "branch": "master",
-        "changeset": "774c411eded69f7eb4eac41953bd9bb8c438e864",
+        "changeset": "068eeeccc015da0a0f1407cf6a44ec1e16c61cc3",
         "url": "https://github.com/brainvisa/morphologist-gpl.git"
     },
     "morphologist-nonfree": {
@@ -131,7 +131,7 @@
     },
     "populse-db": {
         "branch": "master",
-        "changeset": "4b77c4971fb5d6332b7a522efbf6c5dfcdc76d10",
+        "changeset": "ca76caf511463a0d9f5197fd06634ce279aa8035",
         "url": "https://github.com/populse/populse_db.git"
     },
     "primatologist-gpl": {
@@ -141,7 +141,7 @@
     },
     "soma-base": {
         "branch": "master",
-        "changeset": "f6a92dcec65462f6fc7f924622bdb491d5262be7",
+        "changeset": "2977fc10a635ef25708376e62bc5bad5e0c2a850",
         "url": "https://github.com/populse/soma-base.git"
     },
     "soma-io": {
@@ -151,7 +151,7 @@
     },
     "soma-workflow": {
         "branch": "master",
-        "changeset": "7345d1bdbb322dc05a6d401cbccdc643ded9df50",
+        "changeset": "716af3392361423715e7e9ffe4cd3156db56cbc0",
         "url": "https://github.com/populse/soma-workflow.git"
     },
     "sulci-nonfree": {
