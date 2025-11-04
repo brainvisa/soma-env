@@ -93,7 +93,7 @@
         "changeset": "4bb78221093b175af3e71294b3e8b04201cf3da8",
         "url": "https://github.com/neurospin/highres-cortex.git"
     },
-    "latest_release": "0.0.28",
+    "latest_release": "0.0.29",
     "morpho-deepsulci": {
         "branch": "master",
         "changeset": "e72510dc32c10f8cc65822826575b1afd6730a08",

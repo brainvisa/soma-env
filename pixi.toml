@@ -5,7 +5,7 @@ platforms = ["linux-64"]
 version = "0.0"
 
 [dependencies]
-python = ">=3.10,>=3.9,==3.11"
+python = ">=3.10,==3.11,>=3.9"
 typer = "*"
 conda-build = "*"
 pyyaml = "*"
@@ -82,7 +82,7 @@ pandas = "*"
 libgl = "*"
 libopengl = "*"
 pydicom = "*"
-pre-commit = ">=4.1.0,<5"
+pre-commit = "<5,>=4.1.0"
 scikit-image = "*"
 gdb = "*"
 sphinxcontrib-mermaid = "*"
@@ -91,6 +91,7 @@ sphinx-rtd-theme = "*"
 sphinx-gallery = "*"
 nbsphinx = "*"
 nbconvert-pandoc = "*"
+gltf-transform = "*"
 
 [dependencies.libjpeg-turbo]
 channel = "conda-forge"
