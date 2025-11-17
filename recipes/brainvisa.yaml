@@ -1,0 +1,16 @@
+package:
+  name: brainvisa
+
+requirements:
+  run:
+    - anatomist
+    - axon
+    - capsul
+    - cortical-surface
+    - highres-cortex
+    - morphologist
+    - morphologist-baby
+    - nuclear-imaging
+    - soma
+    - soma-freesurfer
+    - soma-spm
