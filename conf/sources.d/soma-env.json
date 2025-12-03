@@ -27,17 +27,17 @@
     "bioprocessing": {
         "branch": "soma-env-6.0",
         "changeset": "e98c951bb5e6738cd68ce6582de496f67b0c66f2",
-        "url": "https://bioproj.extra.cea.fr/git/bioprocessing"
+        "url": "https://bioproj.cea.fr/git/bioprocessing"
     },
     "brainrat-gpl": {
         "branch": "soma-env-6.0",
         "changeset": "863e5797141d1240a5550b279eb74c0e6310be77",
-        "url": "https://bioproj.extra.cea.fr/git/brainrat-gpl"
+        "url": "https://bioproj.cea.fr/git/brainrat-gpl"
     },
     "brainrat-private": {
         "branch": "soma-env-6.0",
         "changeset": "bdc7eccd10f65af02f9be812177c3ed6ce724b9c",
-        "url": "https://bioproj.extra.cea.fr/git/brainrat-private"
+        "url": "https://bioproj.cea.fr/git/brainrat-private"
     },
     "brainvisa-cmake": {
         "branch": "master",
@@ -86,7 +86,7 @@
     "disco": {
         "branch": "soma-env-6.0",
         "changeset": "fe4df4735037da7cefc57407a63585951526bdcb",
-        "url": "https://bioproj.extra.cea.fr/git/brainvisa-disco"
+        "url": "https://bioproj.cea.fr/git/brainvisa-disco"
     },
     "highres-cortex": {
         "branch": "soma-env-6.0",
@@ -102,7 +102,7 @@
     "morphologist-baby": {
         "branch": "soma-env-6.0",
         "changeset": "f70333d066daaa0fb64686fa1c6e9daa6eaba82a",
-        "url": "https://bioproj.extra.cea.fr/git/brainvisa-t1mri/morphologist-baby.git"
+        "url": "https://bioproj.cea.fr/git/brainvisa-t1mri/morphologist-baby.git"
     },
     "morphologist-gpl": {
         "branch": "soma-env-6.0",
@@ -137,7 +137,7 @@
     "primatologist-gpl": {
         "branch": "soma-env-6.0",
         "changeset": "e0dbb41824489c2c48cf181a72125061e5f4c621",
-        "url": "https://bioproj.extra.cea.fr/git/primatologist-gpl"
+        "url": "https://bioproj.cea.fr/git/primatologist-gpl"
     },
     "soma-base": {
         "branch": "soma-env-6.0",
