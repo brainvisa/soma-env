@@ -36,5 +36,6 @@ build:
     brainvisa -b --setup
     brainvisa -b --updateDocumentation
     cd "$CONDA_PREFIX"
-    find . -newer "$CONDA_PREFIX/temporary_time_stamp" -exec cp -a --parents '{}' "$PREFIX" \;
+    find share/doc/axon-*/en -newer "$CONDA_PREFIX/temporary_time_stamp" -exec cp -a --parents '{}' "$PREFIX" \;
+    find share/doc/axon-*/fr -newer "$CONDA_PREFIX/temporary_time_stamp" -exec cp -a --parents '{}' "$PREFIX" \;
     rm "$CONDA_PREFIX/temporary_time_stamp"
