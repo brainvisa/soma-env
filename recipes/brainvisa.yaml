@@ -1,0 +1,40 @@
+package:
+  name: brainvisa
+
+requirements:
+  build:
+    - anatomist
+    - axon
+    - capsul
+    - cortical-surface
+    - disco
+    - highres-cortex
+    - morphologist
+    - morphologist-baby
+    - nuclear-imaging
+    - soma
+    - soma-freesurfer
+    - soma-spm
+
+  run:
+    - anatomist
+    - axon
+    - capsul
+    - cortical-surface
+    - disco
+    - highres-cortex
+    - morphologist
+    - morphologist-baby
+    - nuclear-imaging
+    - soma
+    - soma-freesurfer
+    - soma-spm
+
+build:
+  script: |
+    touch "$CONDA_PREFIX/temporary_time_stamp"
+    brainvisa -b --setup
+    brainvisa -b --updateDocumentation
+    cd "$CONDA_PREFIX"
+    find . -newer "$CONDA_PREFIX/temporary_time_stamp" -exec cp -a --parents '{}' "$PREFIX" \;
+    rm "$CONDA_PREFIX/temporary_time_stamp"
