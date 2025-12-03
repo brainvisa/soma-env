@@ -1,7 +1,7 @@
 {
     "aims-free": {
         "branch": "master",
-        "changeset": "a32937cd6ffdebf42d7de181c1e923dcae03d680",
+        "changeset": "379272b5240af55f77dcb6f75ee23434b909021f",
         "url": "https://github.com/brainvisa/aims-free.git"
     },
     "aims-gpl": {
@@ -21,7 +21,7 @@
     },
     "axon": {
         "branch": "master",
-        "changeset": "783981c6d4e8b32af53c4a33758b85f90cd1b87d",
+        "changeset": "c920b54980ef7e76ec858363202bf601703887f4",
         "url": "https://github.com/brainvisa/axon.git"
     },
     "bioprocessing": {
@@ -45,7 +45,7 @@
     },
     "brainvisa-share": {
         "branch": "master",
-        "changeset": "45061f2d2c141e420a947f577ce97a0c79f006b5",
+        "changeset": "80a88f17aba81f5aea9fe112d7e38705821b6234",
         "url": "https://github.com/brainvisa/brainvisa-share.git"
     },
     "brainvisa-spm": {
@@ -93,7 +93,7 @@
         "changeset": "4bb78221093b175af3e71294b3e8b04201cf3da8",
         "url": "https://github.com/neurospin/highres-cortex.git"
     },
-    "latest_release": "0.0.30",
+    "latest_release": "0.0.31",
     "morpho-deepsulci": {
         "branch": "master",
         "changeset": "e72510dc32c10f8cc65822826575b1afd6730a08",
@@ -106,12 +106,12 @@
     },
     "morphologist-gpl": {
         "branch": "master",
-        "changeset": "08ae04dc280dbfef6e4df094c650d3498c92c2dd",
+        "changeset": "402688e240ab0f21f64dcebd9a32f144cad70601",
         "url": "https://github.com/brainvisa/morphologist-gpl.git"
     },
     "morphologist-nonfree": {
         "branch": "master",
-        "changeset": "e3268f3338529dfbd27e360d3d8052781a0dab9e",
+        "changeset": "1387c5f85afb71778292cef796780e0d80a66005",
         "url": "https://github.com/brainvisa/morphologist-nonfree.git"
     },
     "morphologist-ui": {
@@ -131,7 +131,7 @@
     },
     "populse-db": {
         "branch": "master",
-        "changeset": "082932e881f4503883388ab39e87909ce7726e4a",
+        "changeset": "b85f8cabf67b0015056b5c50c84f83671c52e67e",
         "url": "https://github.com/populse/populse_db.git"
     },
     "primatologist-gpl": {
