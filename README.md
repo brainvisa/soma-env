@@ -17,7 +17,6 @@ To setup de development environment ready to use (with a functionnal `bv_maker`)
 ```
 git clone https://github.com/brainvisa/soma-env
 cd soma-env
-pixi run soma-env update
 ```
 
 Then you can activate your environement with Pixi and start to build your projects:
