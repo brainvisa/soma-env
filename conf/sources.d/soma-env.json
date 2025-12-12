@@ -21,7 +21,7 @@
     },
     "axon": {
         "branch": "soma-env-6.0",
-        "changeset": "6ec3e2f23d36c79503959f19d10154e0cc792219",
+        "changeset": "6100d250284ad12034f44e71de9f94b6e658f3ed",
         "url": "https://github.com/brainvisa/axon.git"
     },
     "bioprocessing": {
@@ -93,7 +93,7 @@
         "changeset": "2b0c652c9507d2b403918bf548cc40329865f367",
         "url": "https://github.com/neurospin/highres-cortex.git"
     },
-    "latest_release": "6.0.21",
+    "latest_release": "6.0.22",
     "morpho-deepsulci": {
         "branch": "soma-env-6.0",
         "changeset": "20049b644d3c3df7414aaa245ea93f8deab21d37",

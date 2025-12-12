@@ -2,7 +2,7 @@
     "name": "soma-env",
     "packages": {
         "anatomist": "6.0.1",
-        "axon": "6.0.1",
+        "axon": "6.0.2",
         "bioprocessing": "6.0.1",
         "brainrat": "6.0.1",
         "capsul": "2.6.12",
