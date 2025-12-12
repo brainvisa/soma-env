@@ -8,6 +8,8 @@ environments:
     - url: https://brainvisa.info/neuro-forge/
     indexes:
     - https://pypi.org/simple
+    options:
+      pypi-prerelease-mode: if-necessary-or-explicit
     packages:
       linux-64:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-5_kmp_llvm.conda
@@ -486,6 +488,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/snappy-1.2.2-h03e3b7b_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/sniffio-1.3.1-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/snowballstemmer-3.0.1-pyhd8ed1ab_0.conda
+      - conda: https://brainvisa.info/neuro-forge/linux-64/soma-openslide-4.3.2-hb0f4dca_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/soupsieve-2.8-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/sphinx-8.2.3-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/sphinx-gallery-0.19.0-pyhd8ed1ab_0.conda
@@ -593,7 +596,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zlib-ng-2.0.7-h0b41bf4_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zstandard-0.23.0-py311h49ec1c0_3.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zstd-1.5.6-ha6fb4c9_0.conda
-      - pypi: https://files.pythonhosted.org/packages/25/7a/7686388e7de5dff0f622d5f2f31f30f5304e04223e951a1f4870e143d182/dracopy-1.7.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/d0/b7/e67c59d8a2e4f9362c5c07353818c85125821c0f32ab97f2536a7a1f5e98/dracopy-2.0.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
 packages:
 - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-5_kmp_llvm.conda
   build_number: 5
@@ -1638,10 +1641,10 @@ packages:
   purls: []
   size: 13148627
   timestamp: 1738164137421
-- pypi: https://files.pythonhosted.org/packages/25/7a/7686388e7de5dff0f622d5f2f31f30f5304e04223e951a1f4870e143d182/dracopy-1.7.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+- pypi: https://files.pythonhosted.org/packages/d0/b7/e67c59d8a2e4f9362c5c07353818c85125821c0f32ab97f2536a7a1f5e98/dracopy-2.0.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
   name: dracopy
-  version: 1.7.0
-  sha256: d152d2026671871ffab831432346785d3e4fba0f7bb675dc504d0fdc1dacc15d
+  version: 2.0.0
+  sha256: fa9a32159669f4291c5e37775b26beb36fac2164afce64d883d6a8f96a32e88e
 - conda: https://conda.anaconda.org/conda-forge/noarch/et_xmlfile-2.0.0-pyhd8ed1ab_1.conda
   sha256: 2209534fbf2f70c20661ff31f57ab6a97b82ee98812e8a2dcb2b36a0d345727c
   md5: 71bf9646cbfabf3022c8da4b6b4da737
@@ -7016,6 +7019,24 @@ packages:
   - pkg:pypi/snowballstemmer?source=hash-mapping
   size: 73009
   timestamp: 1747749529809
+- conda: https://brainvisa.info/neuro-forge/linux-64/soma-openslide-4.3.2-hb0f4dca_1.conda
+  sha256: a83517881ae535c5f1ce531a32b605b9460c322f16dc4a2dc1f8533cbb9f006a
+  md5: bbcd9f8694c9deadcada20a32d876123
+  depends:
+  - zlib
+  - openjpeg
+  - jxrlib
+  - cairo
+  - libpng
+  - libtiff
+  - expat
+  - gdk-pixbuf
+  - liblzma
+  - libxml2 >=2.x.x,<2.13.x
+  - glib
+  - libgcc >=15
+  size: 157308
+  timestamp: 1765539736851
 - conda: https://conda.anaconda.org/conda-forge/noarch/soupsieve-2.8-pyhd8ed1ab_0.conda
   sha256: c978576cf9366ba576349b93be1cfd9311c00537622a2f9e14ba2b90c97cae9c
   md5: 18c019ccf43769d211f2cf78e9ad46c2
