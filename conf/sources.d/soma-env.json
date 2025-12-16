@@ -45,7 +45,7 @@
     },
     "brainvisa-share": {
         "branch": "soma-env-6.0",
-        "changeset": "6ba7021a5b97f5de7133b2411e79e04b759d6bca",
+        "changeset": "6880b0a81c343eade782ae06b7616a2ffbf32619",
         "url": "https://github.com/brainvisa/brainvisa-share.git"
     },
     "brainvisa-spm": {
@@ -93,7 +93,7 @@
         "changeset": "2b0c652c9507d2b403918bf548cc40329865f367",
         "url": "https://github.com/neurospin/highres-cortex.git"
     },
-    "latest_release": "6.0.23",
+    "latest_release": "6.0.24",
     "morpho-deepsulci": {
         "branch": "soma-env-6.0",
         "changeset": "20049b644d3c3df7414aaa245ea93f8deab21d37",
@@ -136,7 +136,7 @@
     },
     "soma-io": {
         "branch": "soma-env-6.0",
-        "changeset": "2740ef4fc00e45a08849f5fba7072f1aec676806",
+        "changeset": "79f24838017f7bb23697a59df0fce9b39ebb883d",
         "url": "https://github.com/brainvisa/soma-io.git"
     },
     "soma-workflow": {
