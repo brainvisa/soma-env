@@ -10,8 +10,6 @@ requirements:
     - disco
     - highres-cortex
     - morphologist
-    - morphologist-baby
-    - nuclear-imaging
     - soma
     - soma-freesurfer
     - soma-spm
@@ -24,8 +22,6 @@ requirements:
     - disco
     - highres-cortex
     - morphologist
-    - morphologist-baby
-    - nuclear-imaging
     - soma
     - soma-freesurfer
     - soma-spm
