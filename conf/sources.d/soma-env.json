@@ -1,7 +1,7 @@
 {
     "aims-free": {
         "branch": "soma-env-6.0",
-        "changeset": "8fd8fae956573eee1dd226dc5510862c36e980fa",
+        "changeset": "6a8f7aa7f2dffcba2ee495dfa875527d9de61af9",
         "url": "https://github.com/brainvisa/aims-free.git"
     },
     "aims-gpl": {
@@ -11,12 +11,12 @@
     },
     "anatomist-free": {
         "branch": "soma-env-6.0",
-        "changeset": "5f10b00645109ec2a607995c5524306294b1afcf",
+        "changeset": "091d6e384e5c02e34ca6b11fd29c8e0dd716ac85",
         "url": "https://github.com/brainvisa/anatomist-free.git"
     },
     "anatomist-gpl": {
         "branch": "soma-env-6.0",
-        "changeset": "50ba3bfeed31633223d19792eb012b5eb2d44b71",
+        "changeset": "31719e97e17adc90986fad9d3bb8fcdb7c2d52bd",
         "url": "https://github.com/brainvisa/anatomist-gpl.git"
     },
     "axon": {
@@ -93,7 +93,7 @@
         "changeset": "2b0c652c9507d2b403918bf548cc40329865f367",
         "url": "https://github.com/neurospin/highres-cortex.git"
     },
-    "latest_release": "6.0.24",
+    "latest_release": "6.0.25",
     "morpho-deepsulci": {
         "branch": "soma-env-6.0",
         "changeset": "20049b644d3c3df7414aaa245ea93f8deab21d37",
@@ -131,7 +131,7 @@
     },
     "soma-base": {
         "branch": "soma-env-6.0",
-        "changeset": "3426b478f36bc9450dea57c44b2b5dfb5210369f",
+        "changeset": "e991a116af1940a3ee97d31634550521bb819a0f",
         "url": "https://github.com/populse/soma-base.git"
     },
     "soma-io": {
