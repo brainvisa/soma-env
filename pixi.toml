@@ -97,6 +97,7 @@ pyzmq = "*"
 paramiko = "*"
 wkhtmltopdf = "*"
 filelock = "*"
+black = "*"
 
 [dependencies.libjpeg-turbo]
 channel = "conda-forge"
