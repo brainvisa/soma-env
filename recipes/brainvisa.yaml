@@ -5,6 +5,7 @@ requirements:
   build:
     - anatomist
     - axon
+    - brainrat
     - capsul
     - cortical-surface
     - disco
@@ -17,6 +18,7 @@ requirements:
   run:
     - anatomist
     - axon
+    - brainrat
     - capsul
     - cortical-surface
     - disco
