@@ -15,7 +15,7 @@ soma-env requires [to install Pixi. Pixi](https://pixi.sh/) is a package manager
 To setup de development environment ready to use (with a functionnal `bv_maker`) one just need to clone this project (eventually choosing the branch corresponding to a specific version) and run `soma-env update` with `pixi`:
 
 ```
-git clone https://github.com/brainvisa/soma-env
+git clone https://github.com/brainvisa/soma-env -b 6.0
 cd soma-env
 ```
 
