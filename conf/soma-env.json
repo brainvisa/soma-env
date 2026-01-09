@@ -16,7 +16,7 @@
         "primatologist": "6.0.4",
         "soma": "6.0.6",
         "soma-freesurfer": "6.0.2",
-        "soma-python": "6.0.5",
+        "soma-base": "6.0.5",
         "soma-spm": "6.0.2",
         "soma-workflow": "6.0.2"
     },
