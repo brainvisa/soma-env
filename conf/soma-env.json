@@ -12,12 +12,11 @@
         "highres-cortex": "0.0.32",
         "morphologist": "0.0.32",
         "morphologist-baby": "0.0.32",
-        "nuclear-imaging": "0.0.32",
         "populse-db": "0.0.32",
         "primatologist": "0.0.32",
         "soma": "0.0.32",
         "soma-freesurfer": "0.0.32",
-        "soma-python": "0.0.32",
+        "soma-base": "0.0.32",
         "soma-spm": "0.0.32",
         "soma-workflow": "0.0.32"
     },
