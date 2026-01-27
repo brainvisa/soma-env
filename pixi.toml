@@ -94,6 +94,8 @@ nbconvert-pandoc = "*"
 soma-openslide = "*"
 black = "*"
 dracopy = "*"
+python-build = "*"
+twine = "*"
 
 [dependencies.libjpeg-turbo]
 channel = "conda-forge"
