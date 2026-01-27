@@ -93,13 +93,11 @@ nbsphinx = "*"
 nbconvert-pandoc = "*"
 soma-openslide = "*"
 black = "*"
+dracopy = "*"
 
 [dependencies.libjpeg-turbo]
 channel = "conda-forge"
 version = ">=3.0.0"
-
-[pypi-dependencies]
-dracopy = ">=1.4.2"
 
 [activation]
 scripts = ["activate.sh"]
