@@ -96,6 +96,11 @@ black = "*"
 dracopy = "*"
 python-build = "*"
 twine = "*"
+gltf-transform = "*"
+pyzmq = "*"
+paramiko = "*"
+wkhtmltopdf = "*"
+filelock = "*"
 
 [dependencies.libjpeg-turbo]
 channel = "conda-forge"
