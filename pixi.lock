@@ -454,7 +454,6 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pycosat-0.6.6-py311h49ec1c0_3.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pycparser-2.22-pyh29332c3_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pycryptodome-3.23.0-py311hc8f4f90_2.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/pydantic-1.10.22-pyh3cfb1c2_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pydicom-3.0.1-pyhd8ed1ab_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pydot-4.0.1-pyhcf101f3_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pygltflib-1.16.5-py311h38be061_1.conda
@@ -6009,16 +6008,6 @@ packages:
   license_family: BSD
   size: 1689050
   timestamp: 1768755541905
-- conda: https://conda.anaconda.org/conda-forge/noarch/pydantic-1.10.22-pyh3cfb1c2_0.conda
-  sha256: 8660b2660ed19ac7aea35cce1bb62be4e56fa41cc41018fefd27d8f53f536943
-  md5: 2aa2384cdd325356830840678adbefdc
-  depends:
-  - python >=3.10
-  - typing_extensions >=4.2.0
-  license: MIT
-  license_family: MIT
-  size: 137813
-  timestamp: 1756237920671
 - conda: https://conda.anaconda.org/conda-forge/noarch/pydicom-3.0.1-pyhd8ed1ab_2.conda
   sha256: f25a26eda6a0385db069d1bfb058931d6fdcd757d976b8acc906583ed5b7104a
   md5: ddf00675162c91c6e7183e70c683ebde
