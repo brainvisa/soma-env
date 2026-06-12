@@ -1,6 +1,6 @@
 [workspace]
 name = "soma-env-0.0"
-channels = ["pytorch", "nvidia", "conda-forge", "https://brainvisa.info/neuro-forge"]
+channels = ["conda-forge", "pytorch", "nvidia", "https://brainvisa.info/neuro-forge"]
 platforms = ["linux-64"]
 version = "0.0"
 
@@ -8,6 +8,8 @@ version = "0.0"
 python = ">=3.10,>=3.9,==3.11"
 typer = "*"
 conda-build = "*"
+pytorch = { version="*", channel="pytorch" }
+torchvision = { version="*", channel="pytorch" }
 pyyaml = "*"
 dateutils = "*"
 cmake = "*"
@@ -51,8 +53,6 @@ lark-parser = ">0.7.0"
 python-dateutil = "*"
 requests = "*"
 cryptography = "*"
-pytorch = "*"
-torchvision = "*"
 scikit-learn = "*"
 pcl = "*"
 configobj = "*"
@@ -73,7 +73,6 @@ pygltflib = "*"
 nodejs = "*"
 xvfb = "*"
 mesalib_software = "*"
-pydantic = "<2"
 pyqt = "*"
 pyqtwebengine = "*"
 ipykernel = "<7"
