@@ -107,3 +107,6 @@ version = ">=3.0.0"
 
 [activation]
 scripts = ["activate.sh"]
+
+[pypi-dependencies]
+cloc = ">=0.2.5, <0.3"
