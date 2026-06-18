@@ -45,6 +45,7 @@ git clone https://github.com/brainvisa/soma-env soma-env-0.0
 cd soma-env-0.0
 pixi workspace channel add --prepend `realpath -m $PWD/../neuro-forge/channel`
 pixi shell
+git -C src/brainvisa-cmake switch clang_cmake
 mkdir .pixi/envs/default/include/blitz/llvm
 ln -s ../gnu/bzconfig.h .pixi/envs/default/include/blitz/llvm/bzconfig.h
 bv_maker
