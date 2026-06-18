@@ -1,23 +1,33 @@
 [workspace]
 name = "soma-env-0.0"
-channels = ["conda-forge", "pytorch", "nvidia", "https://brainvisa.info/neuro-forge"]
+channels = ["file:///home/yann/dev/neuro-forge/channel", "conda-forge", "pytorch", "nvidia", "https://brainvisa.info/neuro-forge"]
 platforms = ["linux-64"]
 version = "0.0"
 
 [dependencies]
-python = ">=3.10,>=3.9,==3.11"
-typer = "*"
-conda-build = "*"
+python = "=3.12" # Most recent release compatible with all dependencies
+
+#gcc = "<15" # Install clang instead of gcc during compilation compatibility process.
+#gxx = "<15" #  We will have to choose one.
+
+clang = "*"
+lld = "*"
+libcxx = "*"
+
+# The following packages are not (yet ?) compatibl with Qt6.
+# qtconsole = "*" # depends on pyqt 5
+# pyqtwebengine = "*" # depends on pyqt 5
+
 pytorch = { version="*", channel="pytorch" }
 torchvision = { version="*", channel="pytorch" }
+typer = "*"
+conda-build = "*"
 pyyaml = "*"
 dateutils = "*"
 cmake = "*"
-gcc = "<15"
 git = "*"
 git-lfs="*"
 gitpython = "*"
-gxx = "<15"
 libglu = "*"
 libglvnd-devel-cos7-x86_64 = "*"
 libstdcxx-devel_linux-64 = "*"
@@ -34,10 +44,9 @@ toml = "*"
 virtualgl = "*"
 "sigcpp-2.0" = "*"
 libblitz = "*"
-boost-cpp = "*"
+libboost-devel = "*"
 gfortran = "*"
-dcmtk = "*"
-numpy = "<2"
+numpy = "*"
 libminc = "*"
 openjpeg = "*"
 pywebp = "*"
@@ -54,17 +63,19 @@ python-dateutil = "*"
 requests = "*"
 cryptography = "*"
 scikit-learn = "*"
-pcl = "*"
 configobj = "*"
-pyqtwebkit = "*"
+# pyqtwebkit = "*"
 scipy = "*"
-traits = { version = "<7", build = "*" }
+traits = { version = "*", build = "*" }
 spm12 = "*"
 reportlab = "*"
 libsvm = "*"
+pcl = "*"
 qwt = "*"
+qt6-multimedia = "*"
+qt6-webengine = "*"
+dcmtk = ">=3.7"
 matplotlib = "*"
-qtconsole = "*"
 ipycanvas = "*"
 ipywidgets = "*"
 ipyevents = "*"
@@ -73,9 +84,8 @@ pygltflib = "*"
 nodejs = "*"
 xvfb = "*"
 mesalib_software = "*"
-pyqt = "*"
-pyqtwebengine = "*"
-ipykernel = "<7"
+pyqt6 = "*"
+ipykernel = "*"
 pycryptodome = "*"
 pandas = "*"
 libgl = "*"
@@ -100,6 +110,7 @@ pyzmq = "*"
 paramiko = "*"
 wkhtmltopdf = "*"
 filelock = "*"
+libxml2-devel = "*"
 
 [dependencies.libjpeg-turbo]
 channel = "conda-forge"
