@@ -2,7 +2,7 @@
 
 Soma-env is the entry point for the development of projects that depends on soma, the C++/Python ecosystem of BrainVISA suite. BrainVISA team maintain several versions of soma-env. Each version fixes version of software dependencies (e.g. Qt version) as well as git branches of BrainVISA projects. The following soma-env versions are currently supported:
 
-- *0.0*: corresponds to the main development environement. Uses git default branches (usualy master or main) and "stable" dependencies (Qt5, Capsul 2)
+- *0.0*: corresponds to the main development environement. Uses git default branches (usualy master or main) and "stable" dependencies (Qt6, Capsul 2)
 - *0.1*: development environment to test capsul 3. Has the same dependencies as 0.0 but uses Capsul 3 specific branches for some projects.
 - *6.0*: will be the branch for the first conda-based release of BrainVISA. It has the same dependencies as 0.0 but uses `soma-env-6.0` branches for all BrainVISA projects.
 
@@ -23,6 +23,18 @@ Then you can activate your environement with Pixi and start to build your projec
 
 ```
 pixi shell
+bv_maker
+```
+
+# Create soma-env 0.0 development environment
+
+Soma-env 0.0 is in transition step, many dependencies had been updated (Qt, Cmake, etc.) and compatibility with clang is experimented (therefore gcc had been removed from the Pixi environment since ther should be only one compiler). During that transition, some manual steps are to be done in order to compile:
+
+```
+git clone https://github.com/brainvisa/soma-env soma-env-0.0
+cd soma-env-0.0
+mkdir .pixi/envs/default/include/blitz/llvm
+ln -s ../gnu/bzconfig.h .pixi/envs/default/include/blitz/llvm/bzconfig.h
 bv_maker
 ```
 
