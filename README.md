@@ -30,9 +30,21 @@ bv_maker
 
 Soma-env 0.0 is in transition step, many dependencies had been updated (Qt, Cmake, etc.) and compatibility with clang is experimented (therefore gcc had been removed from the Pixi environment since ther should be only one compiler). During that transition, some manual steps are to be done in order to compile:
 
+First, build a custom channel with latest `soma-openslide` package:
+```
+git clone https://github.com/neuro-forge
+cd neuro-forge
+pixi shell
+neuro-forge build channel soma-openslide
+exit
+cd ..
+```
+
 ```
 git clone https://github.com/brainvisa/soma-env soma-env-0.0
 cd soma-env-0.0
+pixi workspace channel add --prepend `realpath -m $PWD/../neuro-forge/channel`
+pixi shell
 mkdir .pixi/envs/default/include/blitz/llvm
 ln -s ../gnu/bzconfig.h .pixi/envs/default/include/blitz/llvm/bzconfig.h
 bv_maker
