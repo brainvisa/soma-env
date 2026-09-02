@@ -1,15 +1,15 @@
 [workspace]
 name = "soma-env-6.0"
-channels = ["conda-forge", "pytorch", "nvidia", "https://brainvisa.info/neuro-forge"]
+channels = ["conda-forge", "https://brainvisa.info/neuro-forge"]
 platforms = ["linux-64"]
 version = "6.0"
 
 [dependencies]
-python = ">=3.10,>=3.9,==3.11"
+python = ">=3.11"
 typer = "*"
 conda-build = "*"
-pytorch = { version="*", channel="pytorch" }
-torchvision = { version="*", channel="pytorch" }
+# pytorch = { version="*", channel="pytorch" }
+# torchvision = { version="*", channel="pytorch" }
 pyyaml = "*"
 dateutils = "*"
 cmake = "*"
@@ -34,10 +34,11 @@ toml = "*"
 virtualgl = "*"
 "sigcpp-2.0" = "*"
 libblitz = "*"
-boost-cpp = "*"
+# boost-cpp = "*"
+boost = ">=1.82.0,<2"
 gfortran = "*"
-dcmtk = "*"
-numpy = "<2"
+dcmtk = "<3.7"
+numpy = "*"
 libminc = "*"
 openjpeg = "*"
 pywebp = "*"
@@ -54,9 +55,8 @@ python-dateutil = "*"
 requests = "*"
 cryptography = "*"
 scikit-learn = "*"
-pcl = "*"
+# pcl = "*"
 configobj = "*"
-pyqtwebkit = "*"
 scipy = "*"
 traits = { version = "<7", build = "*" }
 spm12 = "*"
@@ -64,7 +64,7 @@ reportlab = "*"
 libsvm = "*"
 qwt = "*"
 matplotlib = "*"
-qtconsole = "*"
+# qtconsole = "*"
 ipycanvas = "*"
 ipywidgets = "*"
 ipyevents = "*"
@@ -73,8 +73,9 @@ pygltflib = "*"
 nodejs = "*"
 xvfb = "*"
 mesalib_software = "*"
-pyqt = "*"
-pyqtwebengine = "*"
+pyqt6 = "*"
+qt6-main = "*"
+qt6-webengine = "*"
 ipykernel = "<7"
 pycryptodome = "*"
 pandas = "*"
@@ -100,13 +101,13 @@ pyzmq = "*"
 paramiko = "*"
 wkhtmltopdf = "*"
 filelock = "*"
-
-[dependencies.libjpeg-turbo]
-channel = "conda-forge"
-version = ">=3.0.0"
+libxml2-devel = ">=2.15.3,<3"
+hdf5 = "<2"
 
 [activation]
 scripts = ["activate.sh"]
 
 [pypi-dependencies]
 cloc = ">=0.2.5, <0.3"
+pyqt6_webengine = "*"
+
