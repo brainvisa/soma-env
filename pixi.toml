@@ -102,6 +102,7 @@ filelock = "*"
 libxml2-devel = ">=2.15.3,<3"
 hdf5 = "<2"
 qtconsole-base = ">=5.7.2,<6"
+sed = ">=4.10,<5"
 
 [activation]
 scripts = ["activate.sh"]
