@@ -30,3 +30,4 @@ if [ -d "$PIXI_PROJECT_ROOT/.pixi/envs/$PIXI_ENVIRONMENT_NAME/lib/python3.12/sit
     # since it gets as is in makefiles
     sed -i -e 's/^  INTERFACE_COMPILE_DEFINITIONS/#  INTERFACE_COMPILE_DEFINITIONS/g' $PIXI_PROJECT_ROOT/.pixi/envs/$PIXI_ENVIRONMENT_NAME/lib/cmake/Qt6Qml/Qt6QmlTargets.cmake
 fi
+export QT_API=pyqt6
