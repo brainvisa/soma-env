@@ -1,6 +1,6 @@
 [workspace]
 name = "soma-env-6.0"
-channels = ["file:///home/dr144257/brainvisa/packages", "conda-forge", "https://brainvisa.info/neuro-forge"]
+channels = ["conda-forge", "https://brainvisa.info/neuro-forge"]
 platforms = [{platform = "linux-64", cuda = "12.8"}]
 version = "6.0"
 
