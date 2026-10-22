@@ -18,3 +18,26 @@ fi
 if [ ! -e "$SOMA_ROOT/conf/build_info.json" ] ; then
     echo '{}' > "$SOMA_ROOT/conf/build_info.json"
 fi
+
+# try to fix fontconfig cache issue by disabling it
+
+if [ ! -e "$SOMA_ROOT/conf/fontconfig" ]; then
+    mkdir "$SOMA_ROOT/conf/fontconfig"
+    mkdir -p "$SOMA_ROOT/.pixi/fontconfig_cache"
+    if [ -f /etc/fonts/fonts.conf ]; then
+        sed "s/^.*<cachedir.*$//" /etc/fonts/fonts.conf > "$SOMA_ROOT/conf/fontconfig/fonts.conf"
+        sed -i "/^.*<\!-- Font cache directory list.*$/a\\\t<cachedir>$SOMA_ROOT\/.pixi\/fontconfig_cache<\/cachedir>" "$SOMA_ROOT/conf/fontconfig/fonts.conf"
+    else
+        # this does not work actually if /etc/fonts/fonts.conf exists
+        cat << EOF > "$SOMA_ROOT/conf/fontconfig/fonts.conf"
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
+<fontconfig>
+    <cachedir>$SOMA_ROOT/.pixi/fontconfig_cache</cachedir>
+    <include ignore_missing="yes">/etc/fonts/fonts.conf</include>
+</fontconfig>
+EOF
+    fi
+fi
+# export FONTCONFIG_PATH="$SOMA_ROOT/conf/fontconfig"
+export FONTCONFIG_FILE="$SOMA_ROOT/conf/fontconfig/fonts.conf"
