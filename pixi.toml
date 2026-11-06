@@ -4,22 +4,17 @@ channels = ["conda-forge", "https://brainvisa.info/neuro-forge"]
 version = "6.0"
 platforms = [
   # The CUDA platform is listed first, so it wins platform selection on a machine with a CUDA driver.
-  { name = "linux-64-cuda130", platform = "linux-64", cuda = { driver = "13.0", arch = "12.0" } },
-  { name = "linux-64-cuda128", platform = "linux-64", cuda = { driver = "12.0", arch = "9.0" } },
-  { name = "linux-64-cuda120", platform = "linux-64", cuda = { driver = "12.0", arch = "8.6" } },
+  { name = "linux-64-cuda13", platform = "linux-64", cuda = "13" },
+  { name = "linux-64-cuda12", platform = "linux-64", cuda = "12" },
   { name = "linux-64-cpu", platform = "linux-64" } # Fallback CPU
-#   { name = "linux-64-cpu", platform = "linux-64" },
 ]
 
-[target.linux-64-cuda130.dependencies]
+[target.linux-64-cuda13.dependencies]
 cuda-version = "13.*"
 pytorch-gpu = "*"
 
-[target.linux-64-cuda128.dependencies]
-pytorch-gpu = "*"
-cuda-version = "12.8.*"
-
-[target.linux-64-cuda120.dependencies]
+[target.linux-64-cuda12.dependencies]
+cuda-version = "12.*"
 pytorch-gpu = "*"
 
 [target.linux-64-cpu.dependencies]
