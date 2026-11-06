@@ -1,17 +1,29 @@
 [workspace]
 name = "soma-env-6.0"
 channels = ["conda-forge", "https://brainvisa.info/neuro-forge"]
-platforms = [{platform = "linux-64", cuda = "12.8"}]
 version = "6.0"
+platforms = [
+  # The CUDA platform is listed first, so it wins platform selection on a machine with a CUDA driver.
+  { name = "linux-64-cuda13", platform = "linux-64", cuda = "13" },
+  { name = "linux-64-cuda12", platform = "linux-64", cuda = "12" },
+  { name = "linux-64-cpu", platform = "linux-64" } # Fallback CPU
+]
+
+[target.linux-64-cuda13.dependencies]
+cuda-version = "13.*"
+pytorch-gpu = "*"
+
+[target.linux-64-cuda12.dependencies]
+cuda-version = "12.*"
+pytorch-gpu = "*"
+
+[target.linux-64-cpu.dependencies]
+pytorch-cpu = "*"
 
 [dependencies]
 python = ">=3.12"
 typer = "*"
 conda-build = "*"
-# pytorch = { version="*", channel="pytorch" }
-# torchvision = { version="*", channel="pytorch" }
-pytorch-gpu = "*"
-pytorch = "*"
 torchvision = "*"
 pyyaml = "*"
 dateutils = "*"
