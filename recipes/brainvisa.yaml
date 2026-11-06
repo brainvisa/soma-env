@@ -5,30 +5,30 @@ requirements:
   build:
     - anatomist
     - axon
+    - brainrat
     - capsul
     - cortical-surface
     - disco
     - highres-cortex
     - morphologist
-    - morphologist-baby
-    - nuclear-imaging
     - soma
     - soma-freesurfer
     - soma-spm
+    - primatologist
 
   run:
     - anatomist
     - axon
+    - brainrat
     - capsul
     - cortical-surface
     - disco
     - highres-cortex
     - morphologist
-    - morphologist-baby
-    - nuclear-imaging
     - soma
     - soma-freesurfer
     - soma-spm
+    - primatologist
 
 build:
   script: |

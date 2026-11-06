@@ -1,18 +1,36 @@
-[project]
+[workspace]
 name = "soma-env-0.1"
-channels = ["pytorch", "nvidia", "conda-forge", "https://brainvisa.info/neuro-forge"]
-platforms = ["linux-64"]
+channels = ["conda-forge", "https://brainvisa.info/neuro-forge"]
 version = "0.1"
+platforms = [
+  # The CUDA platform is listed first, so it wins platform selection on a machine with a CUDA driver.
+  { name = "linux-64-cuda13", platform = "linux-64", cuda = "13" },
+  { name = "linux-64-cuda12", platform = "linux-64", cuda = "12" },
+  { name = "linux-64-cpu", platform = "linux-64" } # Fallback CPU
+]
+
+[target.linux-64-cuda13.dependencies]
+cuda-version = "13.*"
+pytorch-gpu = "*"
+
+[target.linux-64-cuda12.dependencies]
+cuda-version = "12.*"
+pytorch-gpu = "*"
+
+[target.linux-64-cpu.dependencies]
+pytorch-cpu = "*"
 
 [dependencies]
 python = ">=3.9,==3.11,>=3.10"
 typer = "*"
 conda-build = "*"
+torchvision = "*"
 pyyaml = "*"
 dateutils = "*"
 cmake = "*"
 gcc = "<15"
 git = "*"
+git-lfs="*"
 gitpython = "*"
 gxx = "<15"
 libglu = "*"
@@ -50,8 +68,6 @@ lark-parser = ">0.7.0"
 python-dateutil = "*"
 requests = "*"
 cryptography = "*"
-pytorch = "*"
-torchvision = "*"
 scikit-learn = "*"
 pcl = "*"
 configobj = "*"
@@ -72,22 +88,33 @@ pygltflib = "*"
 nodejs = "*"
 xvfb = "*"
 mesalib_software = "*"
-pydantic = "<2"
 pyqt = "*"
 pyqtwebengine = "*"
-ipykernel = "*"
+ipykernel = "<7"
 pycryptodome = "*"
 pandas = "*"
 libgl = "*"
 libopengl = "*"
 pydicom = "*"
-pre-commit = "<5,>=4.1.0"
+pre-commit = "*"
 scikit-image = "*"
+gdb = "*"
 sphinxcontrib-mermaid = "*"
 myst-parser = "*"
 sphinx-rtd-theme = "*"
 sphinx-gallery = "*"
 nbsphinx = "*"
+nbconvert-pandoc = "*"
+soma-openslide = "*"
+black = "*"
+dracopy = "*"
+python-build = "*"
+twine = "*"
+gltf-transform = "*"
+pyzmq = "*"
+paramiko = "*"
+wkhtmltopdf = "*"
+filelock = "*"
 
 [dependencies.libjpeg-turbo]
 channel = "conda-forge"
@@ -95,3 +122,6 @@ version = ">=3.0.0"
 
 [activation]
 scripts = ["activate.sh"]
+
+[pypi-dependencies]
+cloc = ">=0.2.5, <0.3"

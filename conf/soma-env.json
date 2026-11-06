@@ -18,6 +18,7 @@
         "soma-freesurfer": "0.1.0",
         "soma-python": "0.1.0",
         "soma-spm": "0.1.0"
+        "soma-workflow": "6.0.13"
     },
     "publication": "neuro-forge",
     "version": "0.1"
