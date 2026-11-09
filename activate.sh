@@ -19,25 +19,53 @@ if [ ! -e "$SOMA_ROOT/conf/build_info.json" ] ; then
     echo '{}' > "$SOMA_ROOT/conf/build_info.json"
 fi
 
-# try to fix fontconfig cache issue by disabling it
+# Fix fontconfig cache issue by disabling it
 
-if [ ! -e "$SOMA_ROOT/conf/fontconfig" ]; then
-    mkdir "$SOMA_ROOT/conf/fontconfig"
-    mkdir -p "$SOMA_ROOT/.pixi/fontconfig_cache"
+if [ -d "$SOMA_ROOT/fontconfig_local" -a -w "$SOMA_ROOT/fontconfig_local" ]; then
+    FONTCONFIG_LOCAL="$SOMA_ROOT/fontconfig_local"
+else
+    if [ ! -d "$SOMA_ROOT/fontconfig_local" -a -w "$SOMA_ROOT" ];
+ then
+        mkdir "$SOMA_ROOT/fontconfig_local"
+        FONTCONFIG_LOCAL="$SOMA_ROOT/fontconfig_local"
+    fi
+fi
+if [ -z "$FONTCONFIG_LOCAL" ]; then
+    CLEAN_FONTCONFIG_CACHE=1
+    if [ -z "$TMPDIR" ]; then
+        TMPDIR=/tmp
+    fi
+    mkdir -p "$TMPDIR/soma_pixi"
+    FONTCONFIG_LOCAL=$(mktemp -d -p "" soma_pixi/fontconfig_XXXXXXX)
+    chmod a+rwx "$FONTCONFIG_LOCAL"
+fi
+
+if [ ! -e "$FONTCONFIG_LOCAL/conf/fontconfig" ]; then
+    mkdir -p "$FONTCONFIG_LOCAL/conf/fontconfig"
+    mkdir -p "$FONTCONFIG_LOCAL/fontconfig_cache"
     if [ -f /etc/fonts/fonts.conf ]; then
-        sed "s/^.*<cachedir.*$//" /etc/fonts/fonts.conf > "$SOMA_ROOT/conf/fontconfig/fonts.conf"
-        sed -i "/^.*<\!-- Font cache directory list.*$/a\\\t<cachedir>$SOMA_ROOT\/.pixi\/fontconfig_cache<\/cachedir>" "$SOMA_ROOT/conf/fontconfig/fonts.conf"
+        sed "s/^.*<cachedir.*$//" /etc/fonts/fonts.conf > "$FONTCONFIG_LOCAL/conf/fontconfig/fonts.conf"
+        sed -i "/^.*<\!-- Font cache directory list.*$/a\\\t<cachedir>$FONTCONFIG_LOCAL\/fontconfig_cache<\/cachedir>" "$FONTCONFIG_LOCAL/conf/fontconfig/fonts.conf"
     else
         # this does not work actually if /etc/fonts/fonts.conf exists
-        cat << EOF > "$SOMA_ROOT/conf/fontconfig/fonts.conf"
+        cat << EOF > "$FONTCONFIG_LOCAL/conf/fontconfig/fonts.conf"
 <?xml version="1.0"?>
 <!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
 <fontconfig>
-    <cachedir>$SOMA_ROOT/.pixi/fontconfig_cache</cachedir>
+    <cachedir>$FONTCONFIG_LOCAL/fontconfig_cache</cachedir>
     <include ignore_missing="yes">/etc/fonts/fonts.conf</include>
 </fontconfig>
 EOF
     fi
 fi
-# export FONTCONFIG_PATH="$SOMA_ROOT/conf/fontconfig"
-export FONTCONFIG_FILE="$SOMA_ROOT/conf/fontconfig/fonts.conf"
+export FONTCONFIG_FILE="$FONTCONFIG_LOCAL/conf/fontconfig/fonts.conf"
+
+# unfortunately we cannot clean $$FONTCONFIG_LOCAL at pixi exit.
+
+# clean_up() {
+#     echo "Clean temp fontconfig cache..."
+#     rm -rf "$FONTCONFIG_LOCAL"
+# }
+# if [ -n "$CLEAN_FONTCONFIG_CACHE" ]; then
+#     trap clean_up EXIT
+# fi
